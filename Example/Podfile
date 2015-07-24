@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'dupe_Example', :exclusive => true do
+  pod "dupe", :path => "../"
+end
+
+target 'dupe_Tests', :exclusive => true do
+  pod "dupe", :path => "../"
+
+  
+end
